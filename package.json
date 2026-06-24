@@ -10,7 +10,8 @@
     "gulp-plumber": "1.2.x",
     "gulp-sourcemaps": "2.6.x",
     "gulp-postcss": "8.0.x",
-    "gulp-sass": "4.0.x",
+    "gulp-sass": "5.1.x",
+    "sass": "1.x",
     "@htmlacademy/editorconfig-cli": "1.x",
     "stylelint": "10.1.x",
     "stylelint-config-htmlacademy": "0.1.x"
@@ -36,6 +37,6 @@
     "source/sass/**/*.{sass,scss}"
   ],
   "engines": {
-    "node": "8.16"
+    "node": ">=18"
   }
 }
